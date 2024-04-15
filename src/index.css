@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: DockerOne;
+    src: url("./assets/fonts/docker.one.ttf");
+}
+
+
+.title {
+    font-family: DockerOne;
+}
