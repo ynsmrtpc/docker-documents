@@ -2,7 +2,7 @@
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrDocker } from "react-icons/gr";
 import { FaRegSun, FaMoon } from "react-icons/fa";
-import { FaPhp } from "react-icons/fa6";
+import { FaPhp, FaSheetPlastic } from "react-icons/fa6";
 import { DiDotnet } from "react-icons/di";
 import { GrNode } from "react-icons/gr";
 import ModalButton from "./components/Modal/ModalButton";
@@ -39,7 +39,7 @@ export default function App() {
 
         <div className="drawer-content p-3">
           {/* Page content here */}
-          sa
+          <iframe src="/cheatsheet/docker-cheatsheet.html" className="w-full h-dvh border-4 rounded-lg border-primary"></iframe>
         </div>
 
         <div className="drawer-side">
@@ -52,6 +52,10 @@ export default function App() {
               </a>
             </li>
             {/* Sidebar content here */}
+            <li>
+              <a className="active"> <FaSheetPlastic size={20} /> CheatSheet</a>
+            </li>
+            <li></li>
             <li>
               <a> <FaPhp size={25} /> PHP 8.0</a>
             </li>

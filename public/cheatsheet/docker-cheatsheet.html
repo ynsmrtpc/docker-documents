@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+
+<h1>Docker Temel Hızlı Referans</h1>
+
+<h2>Docker Komutları</h2>
+<ul>
+    <li>docker --version: Docker versiyonunu kontrol eder</li>
+    <li>docker info: Sistem genelinde bilgileri gösterir</li>
+    <li>docker help: Docker komutlarını listeler</li>
+</ul>
+
+<h2>Görüntülerle Çalışma</h2>
+<ul>
+    <li>docker images: Tüm görüntüleri listeler</li>
+    <li>docker pull [görüntü_adı]: Bir görüntüyü indirir</li>
+    <li>docker rmi [görüntü_adı]: Bir görüntüyü kaldırır</li>
+</ul>
+
+<h2>Konteynerleri Yönetme</h2>
+<ul>
+    <li>docker ps: Çalışan konteynerleri listeler</li>
+    <li>docker ps -a: Tüm konteynerleri listeler</li>
+    <li>docker run [görüntü_adı]: Bir konteyner çalıştırır</li>
+    <li>docker stop [konteyner_id]: Bir konteyneri durdurur</li>
+    <li>docker rm [konteyner_id]: Bir konteyneri kaldırır</li>
+</ul>
+
+<h2>Docker Ağları</h2>
+<ul>
+    <li>docker network ls: Ağları listeler</li>
+    <li>docker network create [ağ_adı]: Bir ağ oluşturur</li>
+    <li>docker network rm [ağ_adı]: Bir aği kaldırır</li>
+</ul>
+
+<h2>Docker Depolama Alanları</h2>
+<ul>
+    <li>docker volume ls: Depolama alanlarını listeler</li>
+    <li>docker volume create [depolama_alanı_adı]: Bir depolama alanı oluşturur</li>
+    <li>docker volume rm [depolama_alanı_adı]: Bir depolama alanını kaldırır</li>
+</ul>
+
+<h2>Docker Compose</h2>
+<ul>
+    <li>docker-compose up: Hizmetleri başlatır</li>
+    <li>docker-compose down: Hizmetleri durdurur</li>
+    <li>docker-compose build: Hizmetleri oluşturur</li>
+</ul>
+
+<h2>Dockerfile</h2>
+<ul>
+    <li>FROM: Temel görüntü</li>
+    <li>RUN: Yeni bir katmanda komutları çalıştırır</li>
+    <li>CMD: Varsayılan komutu ayarlar</li>
+    <li>COPY: Ana bilgisayardan konteynera dosyaları kopyalar</li>
+    <li>EXPOSE: Bir portu açar</li>
+</ul>
+
+<h2>Faydalı İpuçları</h2>
+<ul>
+    <li>Kullanılmayan dosyaları dışlamak için .dockerignore kullanın</li>
+    <li>Görüntüleri sürüm numaralarıyla etiketleyin</li>
+    <li>Kullanılmayan görüntüleri ve konteynerleri düzenli olarak temizleyin</li>
+</ul>
